@@ -3,7 +3,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 2.21.0
-    created: "2020-11-10T23:11:16.834218-06:00"
+    created: "2020-11-10T23:18:51.0241269-06:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -32,6 +32,6 @@ entries:
     - https://github.com/prometheus/node_exporter
     - https://github.com/kubernetes/kube-state-metrics
     urls:
-    - https://hoffmanntravis.github.io/prometheus/prometheus-11.16.8.tgz
+    - https://hoffmanntravis.github.io/helm-charts/charts/prometheus-11.16.8.tgz
     version: 11.16.8
-generated: "2020-11-10T23:11:16.8262188-06:00"
+generated: "2020-11-10T23:18:51.0161262-06:00"
